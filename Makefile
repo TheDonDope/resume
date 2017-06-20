@@ -1,32 +1,32 @@
 all: html pdf docx rtf
 
-pdf: resume.pdf
-resume.pdf: resume.md
-	pandoc --standalone --template style_chmduquesne.tex \
+pdf: index.pdf
+index.pdf: index.md
+	pandoc --standalone --template assets/vendor/style.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
-	-o resume.tex resume.md; \
-	context resume.tex
+	-o index.tex index.md; \
+	context index.tex
 
-html: resume.html
-resume.html: style_chmduquesne.css resume.md
-	pandoc --standalone -H style_chmduquesne.css \
-        --from markdown --to html \
-        -o resume.html resume.md
+html: index.html
+index.html: assets/vendor/style.css index.md
+	pandoc --standalone -H assets/vendor/style.css \
+				--from markdown --to html \
+				-o index.html index.md
 
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
+docx: index.docx
+index.docx: index.md
+	pandoc -s -S index.md -o index.docx
 
-rtf: resume.rtf
-resume.rtf: resume.md
-	pandoc -s -S resume.md -o resume.rtf
+rtf: index.rtf
+index.rtf: index.md
+	pandoc -s -S index.md -o index.rtf
 
 clean:
-	rm resume.html
-	rm resume.tex
-	rm resume.tuc
-	rm resume.log
-	rm resume.pdf
-	rm resume.docx
-	rm resume.rtf
+	rm -f index.html
+	rm -f index.tex
+	rm -f index.tuc
+	rm -f index.log
+	rm -f index.pdf
+	rm -f index.docx
+	rm -f index.rtf

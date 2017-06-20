@@ -1,0 +1,123 @@
+<style type="text/css">
+
+/*
+ * @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+ */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+/*
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
+
+/* Whole document */
+body {
+    font-family: 'Libre Baskerville', serif;
+    width: 800px;
+    margin: auto;
+    background: #D8CAA8;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Title of the resume */
+h1 {
+    font-size: 55px;
+    color: #363942;
+    text-align:center;
+    margin-bottom:15px;
+}
+h1:hover {
+    background-color: #363942;
+    color: #D8CAA8;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Titles of categories */
+h2 {
+    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+    color: #284907;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    /* This is called "rulecolor" in the ConTeXt stylesheet. */
+    background-color: #5C832F;
+}
+h2:hover {
+    background-color: #284907;
+    color: #D8CAA8;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    /*font-weight: bold;*/
+}
+dd {
+    margin-left: 17%;
+}
+p {
+    margin-top:0;
+    margin-bottom:7px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #284907;
+}
+a:hover, a:active {
+    background-color: #284907;
+    color: #D8CAA8;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #382513;
+}
+
+table {
+    width: 100%;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.java {width: 95%; background-color: #b07219;} /* Brownish */
+.ruby {width: 85%; background-color: #701516;} /* Red */
+.typescript {width: 80%; background-color: #2b7489;} /* Blue */
+.html5 {width: 80%; background-color: #e34c26;} /* Orange */
+.css3 {width: 80%; background-color: #563d7c;} /* Aubergine */
+.python {width: 60%; background-color: #3572a5;} /* Blue */
+
+</style>

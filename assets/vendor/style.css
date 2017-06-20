@@ -1,4 +1,5 @@
 <style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Lato');
 /*
  * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
  *
@@ -10,7 +11,7 @@
 
 /* Whole document */
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", sans-serif;
     width: 800px;
     margin: auto;
     background: #FFFFFF;
@@ -91,4 +92,27 @@ hr {
 table {
     width: 100%;
 }
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.java {width: 95%; background-color: #b07219;} /* Brownish */
+.ruby {width: 85%; background-color: #701516;} /* Red */
+.typescript {width: 80%; background-color: #2b7489;} /* Blue */
+.html5 {width: 80%; background-color: #e34c26;} /* Orange */
+.css3 {width: 80%; background-color: #563d7c;} /* Aubergine */
+.python {width: 60%; background-color: #3572a5;} /* Blue */
 </style>
