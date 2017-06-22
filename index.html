@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css?family=Lato');
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Lato", sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  
+  /* Make sure that padding behaves as expected */
+  * {box-sizing:border-box}
+  
+  /* Container for skill bars */
+  .container {
+      width: 100%; /* Full width */
+      background-color: #ddd; /* Grey background */
+  }
+  
+  .skills {
+      text-align: right; /* Right-align text */
+      padding-right: 20px; /* Add some right padding */
+      line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+      color: white; /* White text color */
+  }
+  
+  .java {width: 95%; background-color: #b07219;} /* Brownish */
+  .ruby {width: 85%; background-color: #701516;} /* Red */
+  .typescript {width: 80%; background-color: #2b7489;} /* Blue */
+  .html5 {width: 80%; background-color: #e34c26;} /* Orange */
+  .css3 {width: 80%; background-color: #563d7c;} /* Aubergine */
+  .python {width: 60%; background-color: #3572a5;} /* Blue */
+  </style>
+</head>
+<body>
+<h1 id="christian-dobert">Christian Dobert <img style="float: right; box-shadow: 0px 2px 4px rgba(0,0,0,0.18); width: 200px" src="assets/photo.jpg"></h1>
+<h2 id="persönliche-daten">Persönliche Daten</h2>
+<dl>
+<dt><strong>Geboren</strong></dt>
+<dd>10.03.1987
+</dd>
+<dt><strong>Geburtsort</strong></dt>
+<dd>Wippra
+</dd>
+<dt><strong>Familienstand</strong></dt>
+<dd>ledig
+</dd>
+<dt><strong>Nationalität</strong></dt>
+<dd>deutsch
+</dd>
+</dl>
+<h2 id="schulbildung">Schulbildung</h2>
+<dl>
+<dt>2000 - 2006</dt>
+<dd><strong>Allgemeine Hochschulreife</strong>; Geschwister Scholl Gymnasium (Sangerhausen)
+</dd>
+</dl>
+<h2 id="ausbildung">Ausbildung</h2>
+<dl>
+<dt>September 2006 - Juni 2009</dt>
+<dd><strong>Ausbildung zum Fachinformatiker Anwendungsentwicklung</strong>; IT-Systemhaus der Bundesagentur für Arbeit (Nürnberg)
+</dd>
+</dl>
+<h2 id="berufserfahrung">Berufserfahrung</h2>
+<p><strong>Lead Consultant Java, Clear Group Erlangen</strong></p>
+<p><em>seit November 2016</em></p>
+<p>Neben meinem Einsatz in Kundenprojekten, speziell im öffentlichen Dienst, bin ich seit September 2016 Fachausbilder für die Ausbildung zum Fachinformatiker Anwendungsentwicklung.</p>
+<p>Beginnend mit dem Ausbildungsjahr 2006 befinden sich derzeit drei Auszubildende im ersten Lehrjahr der Ausbildung. Besonderen Wert legen wir auf die Vermittlung aktuellster Technologiethemen um einen bestmöglichen Start in das Berufsleben zu bieten.</p>
+<p>Zusätzlich dazu arbeite ich mich seit über einem Jahr in das Webframework <a href="https://angular.io/">Angular</a> ein, welches ich schon in einigen Projekten zum Einsatz bringen konnte. In Verbindung mit dem Einsatz von Docker wage ich den Blick über den typischen Softwareentwickler Tellerrand und erprobe für mich auch das DevOps Gebiet.</p>
+<p>Meine eigenen Lernerfolge teile ich gern und unterstütze aktiv in Open Source Projekten. Eine Auswahl meiner Aktivitäten finden sie im Abschnitt <a href="#open-source">Open Source</a>.</p>
+<p><strong>Java Enterprise Entwickler, Clear Group Erlangen</strong></p>
+<p><em>Januar 2014 - Oktober 2016</em></p>
+<p>Mit meinem Wechsel in die freie Wirtschaft ging nicht nur ein einfacher Arbeitgeber-, sondern auch ein Kulturwechsel einher. Als Consultant entwickelte ich vor Ort im Kundenprojekt Software für einen der wichtigsten Sozialversicherungsträger. Dem Begriff &quot;Consultant&quot; sollte auch Rechnung getragen werden, und so gehörten zu meinen Tätigkeiten nicht nur reine Softwareentwicklung. Architekturentwürfe, Design-Spezifikationen, Einarbeitung neuer Mitarbeiter, Wissensvermittlung und Teamleitung gehörten seither zu meinem Tätigkeitsfeld.</p>
+<p><strong>IT-Techniker Design &amp; Implementierung, IT-Systemhaus der Bundesagentur für Arbeit, Nürnberg</strong></p>
+<p><em>August 2011 - Dezember 2013</em></p>
+<p>Auch der öffentliche Dienst kann sich nicht völlig von der Außenwelt abschotten, und so ereilte sich auch bei der Bundesagentur für Arbeit der Zeitpunkt bei welchem das Client-Betriebssystem Windows XP erneuert werden musste. Die Migration zu Windows 7 lief über einen mehrphasigen und mehrjährigen Prozess, bei welchem eine Vielzahl von Herausforderungen bewältigt werden mussten. Ein überarbeitetes Benutzer und Berechtigungskonzept, neue Ordnerstrukturen, strengere Sicherheitsrichtlinien; all diese und noch viel mehr Themen hatten direkten oder indirekten Einfluss auf die Entwicklung des Java Swing Clients der Allgemeinen Terminverwaltung. Nach langer Entwicklungszeit, vielen gefällten Architekturentscheidungen und Lösungsentwürfen, konnte die Migration erfolgreich und termingerecht fertiggestellt werden.</p>
+<p><strong>IT-Fachassistent Design &amp; Implementierung, IT-Systemhaus der Bundesagentur für Arbeit, Nürnberg</strong></p>
+<p><em>Juli 2009 - Juli 2011</em></p>
+<p>Nach dem erfolgreichen Abschluss meiner Ausbildung zum Fachinformatiker Anwendungsentwicklung begann ich meinen Berufsweg im Verfahren Allgemeine Terminverwaltung (ATV). Mit einer Nutzerzahl von 30.000 täglichen parallelen Nutzern, hunderttausenden vereinbarten Terminen und einem Einladungsdruckvolumen von über einer Millionen Briefen pro Monat war dies eines der elementaren Basisverfahren der Bundesagentur für Arbeit.</p>
+<p>In meinem Tätigkeitsfeld war ich Alleinverantwortlich für die Weiterentwicklung und Instandhaltung des Java Swing Clients, welcher eine Vielzahl von JGoodies Bibliotheken nutzt. Neben dem Design von Oberflächen und deren Implementierung, unterstützte ich unsere Tester bei der Testautomatisierung per Silk Test, stellte eine barrierefreie Umsetzung der Software sicher und bearbeitete Incidents von Anwendern im Second Level Support.</p>
+<h2 id="qualifikationen">Qualifikationen</h2>
+<p><strong>Oracle Certified Associate, Java SE 8 Programmer</strong></p>
+<p><em>Juli 2016</em></p>
+<ul>
+<li><a href="https://www.youracclaim.com/badges/9fd343c0-b445-4663-815e-5356c5c82f27/linked_in_profile">Zertifikat Link</a></li>
+</ul>
+<p><strong>Professional Scrum Master I (scrum.org)</strong></p>
+<p><em>Oktober 2014</em></p>
+<ul>
+<li><p>License 88699</p></li>
+<li><p><a href="https://www.scrum.org/user/159323">Zertifikat Link</a></p></li>
+</ul>
+<h2 id="open-source">Open Source</h2>
+<ul>
+<li><p>Eigene Projekte:</p>
+<ul>
+<li><a href="https://github.com/TheDonDope/crudular" class="uri">https://github.com/TheDonDope/crudular</a>
+<ul>
+<li>An Angular CRUD example application using JWT and consuming a JSON API</li>
+</ul></li>
+<li><a href="https://github.com/TheDonDope/crudurails-api" class="uri">https://github.com/TheDonDope/crudurails-api</a>
+<ul>
+<li>A Rails 5 CRUD API-only example application using JWT authentication and providing a JSON API backend</li>
+</ul></li>
+<li><a href="https://github.com/TheDonDope/expensables" class="uri">https://github.com/TheDonDope/expensables</a>
+<ul>
+<li>A stupid expenses tracker</li>
+</ul></li>
+<li><a href="https://github.com/TheDonDope/resume" class="uri">https://github.com/TheDonDope/resume</a>
+<ul>
+<li>My personal curriculum vitae</li>
+<li><a href="https://thedondope.github.io/resume/" class="uri">https://thedondope.github.io/resume/</a></li>
+</ul></li>
+</ul></li>
+<li><p>Forks:</p>
+<ul>
+<li><a href="https://github.com/TheDonDope/pandoc_resume" class="uri">https://github.com/TheDonDope/pandoc_resume</a>
+<ul>
+<li>The Markdown Resume</li>
+<li>In meinem Fork habe ich Docker integriert</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="kenntnisse-und-hobbys">Kenntnisse und Hobbys</h2>
+<ul>
+<li><p>Sprachkenntnisse:</p>
+<ul>
+<li>Deutsch (Muttersprache)</li>
+<li>English (Verhandlungssicher)</li>
+<li>Russisch (Grundkenntnisse)</li>
+</ul></li>
+<li><p>Führerscheine:</p>
+<ul>
+<li>B</li>
+</ul></li>
+<li><p>Softwarekenntnisse:</p>
+<ul>
+<li>Microsoft Office Suite</li>
+<li>verschiedenste IDEs (<a href="http://www.eclipse.org/">Eclipse</a>, <a href="https://www.jetbrains.com/idea/">IntelliJ</a>, <a href="https://www.jetbrains.com/webstorm/">Webstorm</a>)</li>
+<li>verschiedenste Editoren (<a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="https://atom.io/">Atom</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a>)</li>
+<li><a href="http://www.mid.de/en/business-activities/tools/innovator">Innovator</a></li>
+<li><a href="http://staruml.io/">Star UML</a></li>
+</ul></li>
+<li><p>Entwicklungswerkzeuge:</p>
+<ul>
+<li><a href="https://www.docker.com/">Docker</a></li>
+<li><a href="https://nodejs.org/en/">NodeJS</a></li>
+<li><a href="https://nginx.org/en/">nginx</a></li>
+<li><a href="https://expressjs.com/">Express</a></li>
+<li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+<li><a href="https://www.mongodb.com/">MongoDB</a></li>
+</ul></li>
+<li><p>Programmiersprachen:</p>
+<ul>
+<li><p>
+Java
+</p>
+<div class="container">
+<div class="skills java">
+95%
+</div>
+</div></li>
+<li><p>
+Ruby
+</p>
+<div class="container">
+<div class="skills ruby">
+85%
+</div>
+</div></li>
+<li><p>
+Typescript
+</p>
+<div class="container">
+<div class="skills typescript">
+80%
+</div>
+</div></li>
+<li><p>
+HTML5
+</p>
+<div class="container">
+<div class="skills html5">
+80%
+</div>
+</div></li>
+<li><p>
+CSS3
+</p>
+<div class="container">
+<div class="skills css3">
+80%
+</div>
+</div></li>
+<li><p>
+Python
+</p>
+<div class="container">
+<div class="skills python">
+60%
+</div>
+</div></li>
+</ul></li>
+<li><p>Hobbys:</p>
+<ul>
+<li><a href="https://soundcloud.com/thedondope">Musik machen</a></li>
+<li><a href="https://github.com/thedondope">Open Source Entwicklung</a></li>
+<li>Geocaching</li>
+</ul></li>
+</ul>
+<hr />
+<blockquote>
+<p><script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x63;&#104;&#114;&#46;&#100;&#x6f;&#98;&#x65;&#114;&#116;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x63;&#104;&#114;&#46;&#100;&#x6f;&#98;&#x65;&#114;&#116;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript> • +49 176 70784300 • 30 Jahre<br />
+Bernstädter Strasse 9, 90473 Nürnberg</p>
+</blockquote>
+</body>
+</html>

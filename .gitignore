@@ -1,8 +1,15 @@
+.docker/*
+assets/vendor/*
+.dockerignore
+docker-compose.yml
 desktop.ini
+LICENSE
+Makefile
+README.md
 *.tuc
 *.log
 *.pdf
-*.html
+*.md
 index.tex
 *.swo
 *.swp
