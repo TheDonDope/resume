@@ -31,9 +31,19 @@ September 2006 - Juni 2009
 Berufserfahrung
 ----------
 
+**Senior Consultant Java, Clear Group Erlangen**
+
+*Seit Oktober 2018*
+
+Seit Oktober 2018 unterstütze ich im IT-Systemhaus der Bundesagentur für Arbeit bei der Umsetzung der Online Kunden Kanäle.
+
+Neben der Frontendentwicklung verschiedener Antragsstrecken (Berufsausbildungsbeihilfe, Kurzarbeitergeld, Insolvenzgeld), Veränderungsmitteilungen und Kundenbescheide liegt der aktuelle Fokus auf der Containerisierung verschiedener Module mit Docker und DC/OS. Zusätzlich nehme ich die Aufgabe des Team IT-Sicherheitsverantwortlichen wahr.
+
+In diesem agilen Projektumfeld verantworten wir ebenso den teamübergreifenden Lieferprozess für das Portal Lieferpaket.
+
 **Lead Consultant Java, Clear Group Erlangen**
 
-*seit November 2016*
+*November 2016 - September 2018*
 
 Neben meinem Einsatz in Kundenprojekten, speziell im öffentlichen Dienst, bin ich seit September 2016 Fachausbilder für die Ausbildung zum Fachinformatiker Anwendungsentwicklung.
 
@@ -86,16 +96,13 @@ Open Source
 
 * Eigene Projekte:
 
-    * [https://github.com/TheDonDope/crudular](https://github.com/TheDonDope/crudular)
+    * [https://gitlab.com/TheDonDope/crudular](https://gitlab.com/TheDonDope/crudular)
         * An Angular CRUD example application using JWT and consuming a JSON API
 
-    * [https://github.com/TheDonDope/crudurails-api](https://github.com/TheDonDope/crudurails-api)
+    * [https://gitlab.com/TheDonDope/crudurails-api](https://gitlab.com/TheDonDope/crudurails-api)
         * A Rails 5 CRUD API-only example application using JWT authentication and providing a JSON API backend
 
-    * [https://github.com/TheDonDope/expensables](https://github.com/TheDonDope/expensables)
-        * A stupid expenses tracker
-
-    * [https://github.com/TheDonDope/resume](https://github.com/TheDonDope/resume)
+    * [https://gitlab.com/TheDonDope/resume](https://gitlab.com/TheDonDope/resume)
         * My personal curriculum vitae
         * [https://thedondope.github.io/resume/](https://thedondope.github.io/resume/)
 
@@ -170,11 +177,11 @@ Kenntnisse und Hobbys
 
 * Hobbys:
 
-     * [Musik machen](https://soundcloud.com/thedondope)
-     * [Open Source Entwicklung](https://github.com/thedondope)
-     * Geocaching
+     * [Musikproduktion](https://soundcloud.com/thedondope)
+     * [Open Source Entwicklung](https://gitlab.com/TheDonDope)
+     * Bouldern
 
 ----
 
-> <chr.dobert@gmail.com> • +49 176 70784300 • 30 Jahre\
+> <chr.dobert@gmail.com> • +49 176 70784300 • 32 Jahre\
 > Bernstädter Strasse 9, 90473 Nürnberg
