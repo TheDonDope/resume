@@ -11,7 +11,7 @@ Persönliche Daten
 :   Wippra
 
 **Familienstand**
-:   ledig
+:   geschieden
 
 **Nationalität**
 :   deutsch
@@ -32,6 +32,24 @@ Berufserfahrung
 ----------
 
 **Senior Consultant Java, Clear Group Erlangen**
+
+*Seit Juni 2019*
+
+Nach Abschluss des Projekts APOLLO erfolgte der nahtlose Übergang zum Nachfolgeprojekt OPO (Online Programm Organisation). Dieses fasst alle aus dem Vorgängerprojekt entstandenen Onlineprodukte des Bereiches eGovernment im Kundenkanal der BA zusammen. Ich arbeite hierbei im Team LEONARDO, welches die Verantwortung für die folgenden Produkte hat:
+
+- Berufsausbildungsbeihilfe
+- Kundenbescheide
+- Veränderungsmitteilungen
+- Kurzarbeitergeld
+
+Das Hauptaufgabenfeld des Teams liegt dabei in der technischen Überführung der Produkte von der alten ADF und Oracle Weblogic Technologie hin zur Containerplattform auf Basis von DC/OS und Docker. Hierbei werden die Produkte in Angular als Frontend- und Spring Boot als Backendtechnologie implementiert.
+Im Team übernehme ich dabei nachfolgende Tätigkeiten:
+
+- Frontendentwicklung mit Angular
+- Backendentwicklung mit Spring Boot
+- IT-Sicherheitsverantwortlicher des Teams, hierbei Auswertung von NexusIQ Reports, Planung und Behebung von auftretenden Sicherheitslücken
+- Betreuung und Deployment des containerisierten Kundenbescheide Produkts (via Jenkins, Docker, DC/OS)
+- Überwachung des Produktionsbetriebs des containerisierten Kundenbescheide Produkts (via Kibana)
 
 *Seit Oktober 2018*
 
@@ -96,13 +114,16 @@ Open Source
 
 * Eigene Projekte:
 
-    * [https://gitlab.com/TheDonDope/crudular](https://gitlab.com/TheDonDope/crudular)
+    * [https://github.com/TheDonDope/crudular](https://github.com/TheDonDope/crudular)
         * An Angular CRUD example application using JWT and consuming a JSON API
 
-    * [https://gitlab.com/TheDonDope/crudurails-api](https://gitlab.com/TheDonDope/crudurails-api)
-        * A Rails 5 CRUD API-only example application using JWT authentication and providing a JSON API backend
+    * [https://github.com/TheDonDope/gologrest](https://github.com/TheDonDope/gologrest)
+        * A REST API written in go, integrating logging with an ELK stack with docker.
 
-    * [https://gitlab.com/TheDonDope/resume](https://gitlab.com/TheDonDope/resume)
+    * [https://github.com/TheDonDope/dotgo](https://github.com/TheDonDope/dotgo)
+        * A tool to import and export your dotfiles with ease - written in go.
+
+    * [https://github.com/TheDonDope/resume](https://github.com/TheDonDope/resume)
         * My personal curriculum vitae
         * [https://thedondope.github.io/resume/](https://thedondope.github.io/resume/)
 
@@ -147,12 +168,12 @@ Kenntnisse und Hobbys
 
      * <p>Java</p>
      <div class="container">
-       <div class="skills java">95%</div>
+       <div class="skills java">90%</div>
      </div>
 
-     * <p>Ruby</p>
+     * <p>Go</p>
      <div class="container">
-      <div class="skills ruby">85%</div>
+      <div class="skills go">80%</div>
      </div>
 
     * <p>Typescript</p>
@@ -170,6 +191,11 @@ Kenntnisse und Hobbys
       <div class="skills css3">80%</div>
     </div>
 
+    * <p>Ruby</p>
+    <div class="container">
+      <div class="skills ruby">70%</div>
+    </div>
+
     * <p>Python</p>
     <div class="container">
       <div class="skills python">60%</div>
@@ -178,7 +204,9 @@ Kenntnisse und Hobbys
 * Hobbys:
 
      * [Musikproduktion](https://soundcloud.com/thedondope)
-     * [Open Source Entwicklung](https://gitlab.com/TheDonDope)
+     * Open Source Entwicklung:
+          * [GitHub](https://github.com/TheDonDope)
+          * [GitLab](https://gitlab.com/TheDonDope)
      * Bouldern
 
 ----

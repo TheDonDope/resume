@@ -109,10 +109,11 @@ table {
     color: white; /* White text color */
 }
 
-.java {width: 95%; background-color: #b07219;} /* Brownish */
-.ruby {width: 85%; background-color: #701516;} /* Red */
+.java {width: 90%; background-color: #b07219;} /* Brownish */
+.go {width: 80%; background-color: #00add8;} /* Blueish */
 .typescript {width: 80%; background-color: #2b7489;} /* Blue */
 .html5 {width: 80%; background-color: #e34c26;} /* Orange */
 .css3 {width: 80%; background-color: #563d7c;} /* Aubergine */
+.ruby {width: 70%; background-color: #701516;} /* Red */
 .python {width: 60%; background-color: #3572a5;} /* Blue */
 </style>
